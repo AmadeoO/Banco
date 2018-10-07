@@ -18,7 +18,7 @@ public class BancoService implements BancoServiceInterface{
 
 	@Override
 	public Banco findOne(String id_banco){
-		return this.bancoRepository.findById(id_banco);
+            return this.bancoRepository.findById(id_banco).orElse(null);
 	}
 
 	@Override
@@ -29,7 +29,6 @@ public class BancoService implements BancoServiceInterface{
 
 	@Override
 	public Banco findByName(String name) {
-	
 		return this.bancoRepository.findByNombre(name);
 	}
 }
