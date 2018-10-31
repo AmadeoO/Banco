@@ -1,9 +1,9 @@
 Manifest-Version: 1.0
 Implementation-Title: banco
 Implementation-Version: 0.0.1-SNAPSHOT
-Built-By: Amadeo
+Built-By: root
 Implementation-Vendor-Id: com.info.tp6
-Build-Jdk: 1.8.0_161
+Build-Jdk: 1.8.0_181
 Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
  ot-starter-parent/banco
 Created-By: Maven Integration for Eclipse

@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.info.tp6.banco.BancoApplicationTests
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.701 s - in com.info.tp6.banco.BancoApplicationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 22.884 s - in com.info.tp6.banco.BancoApplicationTests

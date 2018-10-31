@@ -7,13 +7,9 @@ import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Data;
 
-@AllArgsConstructor
-@Data
-@Builder
+
+
 @Entity(name = "Banco") //Hibernate
 @Table(name = "banco")
 public class Banco implements Serializable {
@@ -32,6 +28,46 @@ public class Banco implements Serializable {
 	
 	@Column(name = "domicilio", nullable = false)
 	private String domicilio;
+
+	public Banco(String idBanco, String nombre, String pais, String domicilio) {
+		super();
+		this.idBanco = idBanco;
+		this.nombre = nombre;
+		this.pais = pais;
+		this.domicilio = domicilio;
+	}
+
+	public String getIdBanco() {
+		return idBanco;
+	}
+
+	public void setIdBanco(String idBanco) {
+		this.idBanco = idBanco;
+	}
+
+	public String getNombre() {
+		return nombre;
+	}
+
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
+	}
+
+	public String getPais() {
+		return pais;
+	}
+
+	public void setPais(String pais) {
+		this.pais = pais;
+	}
+
+	public String getDomicilio() {
+		return domicilio;
+	}
+
+	public void setDomicilio(String domicilio) {
+		this.domicilio = domicilio;
+	}
 	
 	
 
